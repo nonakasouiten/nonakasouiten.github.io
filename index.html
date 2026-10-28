@@ -1,1 +1,116 @@
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="野中相違点の公式ホームページ。動画や企画、お笑い関連リンクを紹介します。">
+  <title>野中相違点｜公式サイト</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #101010;
+      color: #fff;
+      line-height: 1.7;
+    }
+    header {
+      padding: 18px 20px;
+      border-bottom: 1px solid #333;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header strong { color: #ffe45c; font-size: 19px; }
+    nav { padding: 12px; text-align: center; }
+    nav a {
+      color: white; text-decoration: none;
+      margin: 0 8px; font-size: 14px;
+    }
+    .hero {
+      padding: 75px 20px;
+      text-align: center;
+      background: radial-gradient(ellipse at top, #38321a, #101010 70%);
+    }
+    .hero small { color: #ffe45c; letter-spacing: 4px; }
+    h1 { font-size: clamp(35px, 9vw, 58px); margin: 12px 0; }
+    .hero p { color: #ccc; }
+    .btn {
+      display: inline-block; padding: 12px 22px;
+      background: #ffe45c; color: #111;
+      border-radius: 8px; text-decoration: none;
+      font-weight: bold; margin-top: 12px;
+    }
+    main { max-width: 850px; margin: auto; padding: 20px; }
+    section { padding: 28px 0; scroll-margin-top: 20px; }
+    h2 { border-left: 4px solid #ffe45c; padding-left: 12px; }
+    .card {
+      background: #1c1c1c; border: 1px solid #333;
+      padding: 18px; border-radius: 12px; margin: 12px 0;
+    }
+    .card a { color: #ffe45c; overflow-wrap: anywhere; }
+    footer {
+      text-align: center; color: #aaa;
+      padding: 28px 15px; border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>野中相違点</strong>
+    <span>OFFICIAL</span>
+  </header>
+  <nav>
+    <a href="#about">紹介</a>
+    <a href="#videos">動画</a>
+    <a href="#links">リンク</a>
+    <a href="#news">お知らせ</a>
+  </nav>
+  <div class="hero">
+    <small>WELCOME TO MY WEBSITE</small>
+    <h1>野中相違点</h1>
+    <p>笑いも、企画も、ここから。</p>
+    <a class="btn" href="#videos">動画を見る ↓</a>
+  </div>
+  <main>
+    <section id="about">
+      <h2>野中相違点について</h2>
+      <div class="card">
+        企画や動画など、活動に関する情報を発信していきます！
+      </div>
+    </section>
+    <section id="videos">
+      <h2>YouTube動画</h2>
+      <div class="card">
+        <p>最新動画はこちら！</p>
+        <!-- YOUR_YOUTUBE_URL を自分のURLに変更 -->
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          YouTubeチャンネルを見る ↗
+        </a>
+      </div>
+    </section>
+    <section id="links">
+      <h2>お笑い・おすすめリンク集</h2>
+      <div class="card">
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+      </div>
+      <div class="card">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+      </div>
+      <!-- この下に好きなリンクを追加できる -->
+    </section>
+    <section id="news">
+      <h2>お知らせ</h2>
+      <div class="card">
+        <strong>ホームページ開設！</strong>
+        <p>野中相違点の公式ホームページを準備中です。</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    © 野中相違点
+  </footer>
+</body>
+</html>
+
